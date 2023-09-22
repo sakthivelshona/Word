@@ -10235,7 +10235,7 @@ header {
   color: white;
 }
 .page1{
-  background-image: linear-gradient(rgba(224,224,224,0.52),rgba(132,132,132,.73)),url("https://github.com/sakthivelshona/Word/blob/main/static/img/bg.jpeg");
+  background-image: linear-gradient(rgba(224,224,224,0.52),rgba(132,132,132,.73)),url("static/img/bg.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -10624,9 +10624,9 @@ header {
             <div id="progress-content-section">
                 <div class="section-content discovery active">
                     <div class="content-wrapper">
-                        <div class="image-container">
+                    <!--    <div class="image-container">
                             <img class="home" src="/static/img/hand.jpg" alt="">
-                        </div>
+                        </div>-->
                         <div class="text-container">
                             <h2>Data Collection</h2>
                             <p style="margin: 0; padding: 0;">
@@ -10638,9 +10638,7 @@ header {
                 
                 <div class="section-content strategy">
                     <div class="content-wrapper">
-                        <div class="image-container">
-                            <img class="home" src="/static/img/pre.gif" alt="">
-                        </div>
+                      
                         <div class="text-container">
                     <h2>Image Preprocessing</h2>
                     <p>Prior to model training, we subjected the collected handwritten images to a rigorous preprocessing pipeline. This encompassed <b>noise reduction, contrast enhancement, and image normalization techniques</b>, all aimed at improving image quality and ensuring consistency in data presentation.</p>
@@ -10650,9 +10648,7 @@ header {
                 
                 <div class="section-content creative">
                     <div class="content-wrapper">
-                        <div class="image-container">
-                            <img class="home" src="/static/img/lab.gif" alt="">
-                        </div>
+                      
                         <div class="text-container">
                     <h2>Label Encoding</h2>
                     <p>To equip our model with the ability to recognize and interpret handwritten content accurately, we systematically assigned unique labels to each image. These <b>labels were aligned with a predefined character list</b>, creating a direct correspondence between image data and their actual content.</p>
@@ -10662,9 +10658,7 @@ header {
                 
                 <div class="section-content production">
                     <div class="content-wrapper">
-                        <div class="image-container">
-                            <img class="splt" src="/static/img/splt.gif" alt="">
-                        </div>
+                      
                         <div class="text-container">
                     <h2>Data Splitting</h2>
                     <p>We divided our dataset thoughtfully, with<b> 90% of the data allocated for model training and the remaining 10% reserved for testing</b>. This balanced split allowed us to assess the model's performance comprehensively and gauge its ability to generalize to new data.</p>
@@ -10674,9 +10668,7 @@ header {
                 
                 <div class="section-content analysis">
                     <div class="content-wrapper">
-                        <div class="image-container">
-                            <img class="splt" src="/static/img/train.gif" alt="">
-                        </div>
+                     
                         <div class="text-container">
                     <h2>Data Training</h2>
                     <p>Leveraging state-of-the-art machine learning or deep learning methods, we embarked on the training phase. Our model underwent extensive iterations, learning to <b>recognize and extract textual information from handwritten samples</b>. This training process aimed to optimize recognition <b>accuracy and minimize errors.</b></p>
@@ -10684,9 +10676,7 @@ header {
                     </div></div>
                     <div class="section-content segmentation-prediction">
                         <div class="content-wrapper">
-                            <div class="image-container">
-                                <img class="splt" src="/static/img/img.gif" alt="">
-                            </div>
+                           
                             <div class="text-container">
                         <h2>Image Segmentation</h2>
                         <p>To precisely isolate individual <b>characters or words </b>within the handwritten images, we implemented advanced image segmentation algorithms. This step was essential for ensuring that our model could accurately delineate and interpret each component of the text.</p>
@@ -10694,9 +10684,7 @@ header {
                         </div></div>
                         <div class="section-content naveen">
                             <div class="content-wrapper">
-                                <div class="image-container">
-                                    <img class="splt" src="/static/img/pred.gif" alt="">
-                                </div>
+                               
                                 <div class="text-container">
                             <h2>Prediction</h2>
                             <p> With a fully trained model with <b>accuracy of 94% </b>at our disposal, we seamlessly integrated it into our web application, enabling <b>real-time predictions. Users can now upload handwritten images,</b> and our system will swiftly and accurately extract text, making our application an invaluable asset for various text recognition tasks.</p>
